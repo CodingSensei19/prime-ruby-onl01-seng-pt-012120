@@ -11,7 +11,6 @@ def prime?
 end
 
 # Iterates the given block over all prime numbers.
-#
 # See +Prime+#each for more details.
 def Integer.each_prime(ubound, &block) # :yields: prime
   Prime.each(ubound, &block)
